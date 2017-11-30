@@ -1,34 +1,48 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace XamarinTest01
 {
-	public partial class App : Application
-	{
-		public App ()
-		{
-			InitializeComponent();
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
 
-			MainPage = new XamarinTest01.MainPage();
-		}
 
-		protected override void OnStart ()
-		{
-			// Handle when your app starts
-		}
+            MainPage = new MainPage();
 
-		protected override void OnSleep ()
-		{
-			// Handle when your app sleeps
-		}
+            //            var actionLabel = new Label
+            //            {
+            //                FontSize = 28,
+            //                TextColor = Color.Red,
+            //                Text = "WINDOWS_UWP"
+            //            };
 
-		protected override void OnResume ()
-		{
-			// Handle when your app resumes
-		}
-	}
+            //#if WINDOWS_PHONE || WINDOWS_UWP
+            //            actionLabel.TextColor = Color.Blue;
+            //#endif
+            //            MainPage = new ContentPage
+            //            {
+            //                Content = new StackLayout
+            //                {
+            //                    Children = { actionLabel }
+            //                }
+            //            };
+        }
+
+        protected override void OnStart()
+        {
+            // Handle when your app starts
+        }
+
+        protected override void OnSleep()
+        {
+            // Handle when your app sleeps
+        }
+
+        protected override void OnResume()
+        {
+            // Handle when your app resumes
+        }
+    }
 }
