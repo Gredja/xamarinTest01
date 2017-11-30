@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using Study02.Views;
 using Xamarin.Forms;
 
 namespace Study02
@@ -13,7 +9,7 @@ namespace Study02
         {
             InitializeComponent();
 
-            MainPage = new Study02.MainPage();
+            MainPage = new HomePage();
         }
 
         protected override void OnStart()
