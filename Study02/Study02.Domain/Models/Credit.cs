@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Study02.Domain
+namespace Study02.Domain.Models
 {
     public class Credit
     {

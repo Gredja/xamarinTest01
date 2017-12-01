@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Study02.Helpers;
 
-namespace Study02.Domain
+namespace Study02.Domain.Models
 {
     public class User
     {

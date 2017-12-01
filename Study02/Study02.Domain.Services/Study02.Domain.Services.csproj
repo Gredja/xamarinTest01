@@ -4,4 +4,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Study02.Domain\Study02.Domain.csproj" />
+    <ProjectReference Include="..\Study02.Infrastructure.Data\Study02.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Study02.Infrastructure.Dto\Study02.Infrastructure.Dto.csproj" />
+  </ItemGroup>
+
 </Project>

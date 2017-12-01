@@ -1,7 +1,6 @@
-﻿
-using MongoDB.Bson.Serialization.Attributes;
+﻿using MongoDB.Bson.Serialization.Attributes;
 
-namespace Study02.Infrastructure.Data.Model.Base
+namespace Study02.Infrastructure.Dto.Base
 {
     public class BaseModel
     {

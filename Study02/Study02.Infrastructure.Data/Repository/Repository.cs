@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using Study02.Infrastructure.Data.Model.Base;
+using Study02.Infrastructure.Dto.Base;
 
 namespace Study02.Infrastructure.Data.Repository
 {
