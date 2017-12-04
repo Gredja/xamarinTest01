@@ -1,4 +1,5 @@
 ﻿using Study02.Views;
+using Unity;
 using Xamarin.Forms;
 
 namespace Study02
@@ -8,6 +9,9 @@ namespace Study02
         public App()
         {
             InitializeComponent();
+
+            var unityContainer = new UnityContainer();
+            //unityContainer.RegisterType<IDbService, DbService>()
 
             MainPage = new HomePage();
         }
