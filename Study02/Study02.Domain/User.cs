@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Study02.Helpers;
+using AzureMongoDbOnion03.Helpers;
 
-namespace Study02.Domain.Models
+namespace AzureMongoDbOnion03.Domain
 {
     public class User
     {
@@ -14,7 +14,7 @@ namespace Study02.Domain.Models
         [EmailAddress]
         public string Email { get; set; }
 
-        // [Range(1, 10, ErrorMessage = "Please enter password between 1 and 10")]
+       // [Range(1, 10, ErrorMessage = "Please enter password between 1 and 10")]
         public string Password { get; set; }
 
         public Role Role { get; set; }

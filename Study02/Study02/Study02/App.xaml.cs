@@ -1,4 +1,5 @@
-﻿using Study02.Views;
+﻿using Study02.Domain.Services;
+using Study02.Views;
 using Unity;
 using Xamarin.Forms;
 
@@ -11,7 +12,7 @@ namespace Study02
             InitializeComponent();
 
             var unityContainer = new UnityContainer();
-            //unityContainer.RegisterType<IDbService, DbService>()
+           // unityContainer.RegisterType<IDbService, IDbService>();
 
             MainPage = new HomePage();
         }

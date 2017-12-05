@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Study02.Domain.Models
+namespace AzureMongoDbOnion03.Domain
 {
-    public class Credit
+   public class Credit
     {
         public string Id { get; set; }
 
