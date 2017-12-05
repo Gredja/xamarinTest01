@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-
+﻿
 namespace Study02.Domain.Services
 {
    public interface IDbService

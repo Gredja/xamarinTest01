@@ -1,4 +1,4 @@
-﻿namespace AzureMongoDbOnion03.Domain
+﻿namespace Study02.Domain
 {
     public class Debtor
     {

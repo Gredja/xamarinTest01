@@ -1,10 +1,10 @@
-﻿
-namespace Study02.Domain
-{
-    public class User
-    {
-        public string Id { get; set; }
+﻿using Study02.Helpers;
+using Study02.Infrastructure.Dto.Base;
 
+namespace Study02.Infrastructure.Dto
+{
+    public class User : BaseModel
+    {
         public string ForeignId { get; set; }
 
         public string Email { get; set; }
