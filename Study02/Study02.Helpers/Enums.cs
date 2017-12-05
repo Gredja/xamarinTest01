@@ -1,4 +1,5 @@
-﻿namespace Study02.Helpers
+﻿
+namespace AzureMongoDbOnion03.Helpers
 {
     public enum Currency
     {
