@@ -1,5 +1,4 @@
-﻿using CreditApp02.ViewModels;
-using CreditApp02.Views;
+﻿using CreditApp02.Views;
 using Xamarin.Forms;
 
 namespace CreditApp02
