@@ -1,7 +1,7 @@
-﻿using CreditApp.Infrastructure.Dto.Base;
-using CreditApp02.Helpers;
+﻿using CreditApp02.Helpers;
+using CreditApp02.Infrastructure.Dto.Base;
 
-namespace CreditApp.Infrastructure.Dto
+namespace CreditApp02.Infrastructure.Dto
 {
    public class User : BaseModel
     {

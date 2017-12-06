@@ -1,4 +1,4 @@
-﻿namespace CreditApp.Infrastructure.Dto.Base
+﻿namespace CreditApp02.Infrastructure.Dto.Base
 {
     public class BaseModel
     {

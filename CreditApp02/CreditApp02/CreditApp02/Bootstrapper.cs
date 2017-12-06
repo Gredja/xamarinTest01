@@ -1,4 +1,6 @@
 ﻿using Autofac;
+using CreditApp02.Infrastructure.Data.Repositories;
+using CreditApp02.Infrastructure.Data.Repositories.Interfaces;
 
 namespace CreditApp02
 {
@@ -24,7 +26,7 @@ namespace CreditApp02
         public void Initialize()
         {
             //SingleInstance
-          //  _builder.RegisterType<DatabaseRepository>().As<IDatabaseRepository>().SingleInstance();
+            _builder.RegisterType<DatabaseRepository>().As<IDatabaseRepository>().SingleInstance();
 
             //screen viewmodels
             // _builder.RegisterType<HomeViewModel>().InstancePerLifetimeScope();
