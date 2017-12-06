@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study02", "Study02\Study02\Study02.csproj", "{8C8E6D47-2BC9-445B-8BDE-113439BBC093}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3B026957-E470-4DB4-99BC-799586D837A6} = {3B026957-E470-4DB4-99BC-799586D837A6}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study02.UWP", "Study02\Study02.UWP\Study02.UWP.csproj", "{C6AC9A4D-E1C2-4A4F-A01E-6DA72EA8A745}"
 EndProject

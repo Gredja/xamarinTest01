@@ -1,7 +1,8 @@
-﻿using Study02.Views;
+﻿
+
 using Xamarin.Forms;
 
-namespace Study02
+namespace CreditApp
 {
     public partial class App : Application
     {
@@ -9,8 +10,7 @@ namespace Study02
         {
             InitializeComponent();
 
-            var homePage = Bootstrapper.Instance.Resolve<HomePage>();
-            MainPage = homePage;
+            MainPage = new CreditApp.MainPage();
         }
 
         protected override void OnStart()
