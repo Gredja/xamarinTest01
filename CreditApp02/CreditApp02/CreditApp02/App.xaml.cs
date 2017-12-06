@@ -8,6 +8,8 @@ namespace CreditApp02
         {
             InitializeComponent();
 
+            Bootstrapper.Instance.Initialize();
+
             MainPage = new MainPage();
         }
 
