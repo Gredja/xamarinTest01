@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Caliburn.Micro;
 
 namespace CreditApp02.UWP
 {
@@ -19,7 +20,7 @@ namespace CreditApp02.UWP
     {
         public MainPage()
         {
-            this.InitializeComponent();
+            InitializeComponent();
 
             LoadApplication(new CreditApp02.App());
         }
