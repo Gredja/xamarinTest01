@@ -1,5 +1,4 @@
-﻿using CreditApp02.Views;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace CreditApp02
 {
@@ -10,8 +9,6 @@ namespace CreditApp02
             InitializeComponent();
 
             Bootstrapper.Instance.Initialize();
-
-            MainPage = new HomeView();
         }
 
         protected override void OnStart()
