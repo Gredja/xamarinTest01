@@ -76,7 +76,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\CreditApp.Infrastructure.Data\CreditApp02.Infrastructure.Data.csproj">
+      <Project>{63d7504c-3207-47a6-a4e0-debc42362df5}</Project>
+      <Name>CreditApp02.Infrastructure.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\HomeView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
