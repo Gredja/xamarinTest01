@@ -8,7 +8,7 @@ namespace CreditApp02.Core.ViewModels
 
         public HomeViewModel()
         {
-            Name = "Alex";
+            Name = "AlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlex";
         }
 
         public string Name
