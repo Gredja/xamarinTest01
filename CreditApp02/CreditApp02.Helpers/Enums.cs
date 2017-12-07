@@ -12,4 +12,9 @@
         Admin,
         User
     }
+
+    public enum AppFolder
+    {
+        Default
+    }
 }

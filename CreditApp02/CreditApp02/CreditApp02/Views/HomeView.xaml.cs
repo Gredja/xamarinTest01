@@ -1,4 +1,5 @@
-﻿using CreditApp02.Core.ViewModels;
+﻿using Autofac;
+using CreditApp02.Core.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace CreditApp02.Core.Views
         {
             InitializeComponent();
 
-            BindingContext = new HomeViewModel { Navigation = Navigation };
+            BindingContext = Bootstrapper.Container.Resolve<HomeViewModel>();
         }
     }
 }

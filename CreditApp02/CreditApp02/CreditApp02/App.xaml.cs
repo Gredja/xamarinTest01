@@ -1,4 +1,5 @@
 ﻿using CreditApp02.Core.Views;
+using CreditApp02.Infrastructure.Data.Repositories.Interfaces;
 using Xamarin.Forms;
 
 namespace CreditApp02
