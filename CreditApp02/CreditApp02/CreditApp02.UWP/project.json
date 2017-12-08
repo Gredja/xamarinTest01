@@ -3,6 +3,8 @@
     "Caliburn.Micro": "3.2.0",
     "Caliburn.Micro.Xamarin.Forms": "3.2.0",
     "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.4",
+    "Portable.Ninject": "3.3.1",
+    "sqlite-net-pcl": "1.4.118",
     "Xamarin.Forms": "2.5.0.121934"
   },
   "frameworks": {

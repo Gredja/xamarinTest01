@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using CreditApp02.Annotations;
+using CreditApp02.Core.Properties;
 using Xamarin.Forms;
 
-namespace CreditApp02.ViewModels.Base
+namespace CreditApp02.Core.ViewModels.Base
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

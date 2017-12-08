@@ -1,8 +1,8 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using CreditApp02.Infrastructure.Data;
 using CreditApp02.Infrastructure.Data.Repositories.Interfaces;
 
-namespace CreditApp02.Infrastructure.Data
+namespace CreditApp02.Core.UWP
 {
     public class DatabaseManager : IDatabaseManager
     {

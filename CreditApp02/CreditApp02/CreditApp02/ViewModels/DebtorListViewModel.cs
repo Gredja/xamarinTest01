@@ -1,4 +1,4 @@
-﻿using CreditApp02.ViewModels.Base;
+﻿using CreditApp02.Core.ViewModels.Base;
 
 namespace CreditApp02.Core.ViewModels
 {

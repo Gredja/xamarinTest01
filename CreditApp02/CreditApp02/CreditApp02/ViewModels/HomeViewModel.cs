@@ -1,5 +1,7 @@
-﻿using CreditApp02.Infrastructure.Data;
-using CreditApp02.ViewModels.Base;
+﻿using CreditApp02.Core.ViewModels.Base;
+using CreditApp02.Infrastructure.Data;
+using CreditApp02.Infrastructure.Data.Converters;
+using CreditApp02.Infrastructure.Data.Repositories;
 
 namespace CreditApp02.Core.ViewModels
 {
@@ -11,7 +13,7 @@ namespace CreditApp02.Core.ViewModels
 
         public HomeViewModel()
         {
-           // _databaseManager = databaseManager;
+          // _databaseManager = databaseManager;
 
 
             Name = "AlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlexAlex";

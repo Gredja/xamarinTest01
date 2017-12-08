@@ -35,7 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DatabaseManager.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Converters\AppFolderToStringConverter.cs" />
+    <Compile Include="Converters\Interfaces\IAppFolderToStringConverter.cs" />
     <Compile Include="IDatabaseManager.cs" />
     <Compile Include="Repositories\DatabaseRepository.cs" />
     <Compile Include="ISqLiteConnection.cs" />
@@ -44,12 +46,6 @@
     <Compile Include="Repositories\Interfaces\IDatabaseRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="SQLite.Net, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SQLite.Net.Core-PCL.3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="SQLite.Net.Async, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SQLite.Net.Async-PCL.3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.Async.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Forms.2.5.0.121934\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
@@ -67,6 +63,10 @@
     <ProjectReference Include="..\CreditApp.Infrastructure.Dto\CreditApp02.Infrastructure.Dto.csproj">
       <Project>{d94f06b6-be8f-410d-ae49-b18cb8833db5}</Project>
       <Name>CreditApp02.Infrastructure.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CreditApp02.Helpers\CreditApp02.Helpers.csproj">
+      <Project>{f4009110-0304-433e-bf39-00672b6b61d4}</Project>
+      <Name>CreditApp02.Helpers</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

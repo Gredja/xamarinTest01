@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using CreditApp02.Infrastructure.Data.Repositories.Interfaces;
+using SQLite;
 
 namespace CreditApp02.Infrastructure.Data.Repositories
 {
@@ -9,7 +10,7 @@ namespace CreditApp02.Infrastructure.Data.Repositories
 
         public Task CreateDatabaseAsync()
         {
-            return Database.CreateTablesAsync(typeof(Dto.Debtor), typeof(Dto.Credit));
+            return Database.CreateTablesAsync(CreateFlags.None, typeof(Dto.Debtor));
         }
     }
 }

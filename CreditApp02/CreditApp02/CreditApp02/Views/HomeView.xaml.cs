@@ -12,7 +12,7 @@ namespace CreditApp02.Core.Views
         {
             InitializeComponent();
 
-            BindingContext = Bootstrapper.Container.Resolve<HomeViewModel>();
+            BindingContext = Bootstrapper.Instance.Create<HomeViewModel>();
         }
     }
 }

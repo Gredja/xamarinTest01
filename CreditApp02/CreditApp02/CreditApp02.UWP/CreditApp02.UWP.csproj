@@ -151,9 +151,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CreditApp02\CreditApp02.Core.csproj">
+    <ProjectReference Include="..\CreditApp02\CreditApp02.Core.UWP.csproj">
       <Project>{F9E2DF61-4955-418C-93DD-7EA8CBE07C98}</Project>
-      <Name>CreditApp02.Core</Name>
+      <Name>CreditApp02.Core.UWP</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

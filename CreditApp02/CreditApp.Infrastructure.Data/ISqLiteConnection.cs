@@ -1,4 +1,4 @@
-﻿using SQLite.Net.Async;
+﻿using SQLite;
 
 namespace CreditApp02.Infrastructure.Data
 {

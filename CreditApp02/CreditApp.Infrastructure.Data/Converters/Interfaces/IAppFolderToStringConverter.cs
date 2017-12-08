@@ -3,8 +3,8 @@ using CreditApp02.Helpers;
 
 namespace CreditApp02.Infrastructure.Data.Converters.Interfaces
 {
-   public interface IAppFolderToUriConverter
+   public interface IAppFolderToStringConverter
     {
-        Uri Convert(AppFolder folder);
+        string Convert(AppFolder folder);
     }
 }

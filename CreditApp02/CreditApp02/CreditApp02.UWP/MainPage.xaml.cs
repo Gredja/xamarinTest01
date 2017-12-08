@@ -1,6 +1,4 @@
-﻿using Xamarin.Forms;
-
-namespace CreditApp02.UWP
+﻿namespace CreditApp02.UWP
 {
     public sealed partial class MainPage 
     {
@@ -8,7 +6,7 @@ namespace CreditApp02.UWP
         {
             InitializeComponent();
 
-            LoadApplication(new CreditApp02.App());
+            LoadApplication(new Core.UWP.App());
         }
     }
 }

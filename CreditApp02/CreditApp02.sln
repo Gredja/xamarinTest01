@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditApp02.Core", "CreditApp02\CreditApp02\CreditApp02.Core.csproj", "{F9E2DF61-4955-418C-93DD-7EA8CBE07C98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditApp02.Core.UWP", "CreditApp02\CreditApp02\CreditApp02.Core.UWP.csproj", "{F9E2DF61-4955-418C-93DD-7EA8CBE07C98}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditApp02.UWP", "CreditApp02\CreditApp02.UWP\CreditApp02.UWP.csproj", "{713F45FC-654F-42FC-9529-AC6D8F997F0B}"
 EndProject
